@@ -19,7 +19,7 @@
 - Precisamos saber qual é o plano escolhido
 - Após o cadastro básico, ele precisará configurar a integração com WhatsApp
 - Ele poderá fornecer um número de telefone ou escolher entre uma lista de números pelo preço de R$ 15,00 / mês
-- Após o cadastro, para concluir o sistema irá passar por algumas etapas automáticas que podem demorar algumas horas. 
+- Após o cadastro o sistema irá passar por algumas etapas automáticas que podem demorar algumas horas. 
 As etapas são:
   * Implantação o novo número do whatsapp, que não ocorrerá caso ele informe um número. [15 minutos]
   * Implantação da conta do facebook/whatsapp [2 horas]

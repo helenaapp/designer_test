@@ -6,7 +6,7 @@
 - Esperamos que você defina mockups e não interfaces definitivas, se necessário desenhe a jornada;
 - Preocupe-se com UX mais que com UI;
 - Você pode utilizar qualquer ferramenta que entender necessário;
-- É importante que você gaste até 3 horas, quando esse tempo for atingido pare e envie o teste para o e-mail gente@helena.app. É bem importante sa
+- É importante que você gaste até 3 horas, quando esse tempo for atingido pare e envie o teste para o e-mail gente@helena.app.
 
 
 # Solução "Onboarding"

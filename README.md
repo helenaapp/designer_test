@@ -1,4 +1,4 @@
-# ux_test
+# designer_test
 
 # Instruções
 - Você deve criar uma solução para os desafios descritos abaixo;
@@ -46,11 +46,13 @@ Envie os materiais produzidos ou um link pra eles para david@helena.app;
 Para te guiar, utilize o template Fuse como guia para criação dos componentes visuais. 
 
 Ele pode ser acessado pelo link: https://angular-material.fusetheme.com/
+
 **Usuário:** hughes.brian@company.com
+
 **Senha:** admin
 
 
-**Exemplos de interface para base do seu trabalho**
+## **Exemplos de interface para base do seu trabalho**
 
 Interface de chat
 ![alt text](chat.png)

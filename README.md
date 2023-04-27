@@ -2,38 +2,59 @@
 
 # Instruções
 - Você deve criar uma solução para os desafios descritos abaixo;
-- Esperamos que você defina mockups e não interfaces definitivas, se necessário desenhe jornadas e fluxos;
-- Preocupe-se com UX mais que com UI;
+- Esperamos que você defina mockups e não interfaces definitivas;
+- Escolha um dos mockups criados e crie a interface definitiva para ela;
 - Você pode utilizar qualquer ferramenta que entender necessário;
-- É importante que você gaste até *3 horas*, quando esse tempo for atingido pare e envie o teste para o e-mail gente@helena.app;
+- É importante que você gaste até *3 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
 
-# Solução "Onboarding"
+# Solução "Gestão de vendas"
 
 **Cenário**
 - Uma empresa de CRM baseado em conversas para pequenas empresas;
-- Temos uma apliação web e mobile, a ativação do cliente é feita sempre pela web;
+- Durante uma conversa pode surgir uma venda;
+- Ao gerar esta venda, ela deve ser visualizada e gerenciada de forma separada da conversa;
+- O cliente é uma doceria e está usando a plataforma via interface WEB;
 
-**Problema**
-- Apenas 10% dos clientes que chegam no site, fazem cadastro e desses apenas 10% conseguem entender por onde começar;
-- Ao serem perguntados, os clientes dizem que chegam em uma interface de atendimento carente de informações;
+**Personas**
+- Cliente
+- Vendedor
+- Gestor
+
+**Entidades**
+- Contato: Cliente da doceria;
+- Usuário: Pode ser um Vendedor ou um Gestor acessando a plataforma web;
+- Conversa: Interface de chat onde o vendedor conversa com o contato;
+- Venda: Entidade que tem todos os dados da venda, produtos, itens, situação de pagamento, entrega, preparação, usuário responsável por cada etapa e dados do cliente;
 
 **Requisitos funcionais**
-- O usuário deve conseguir, a partir do site da empresa, iniciar a degustação do produto;
-- Para configurar a degustação ele deve fornecer os dados da empresa como (CNPJ, Razão social, nome fantasia);
-- Também precisa fornecer os dados pessoais do administrador da conta;
-- Ele pode opcionalmente cadastrar novos usuários;
-- Precisamos saber qual é o plano escolhido;
-- Após o cadastro básico, ele precisará configurar a integração com WhatsApp;
-  * Ele poderá fornecer um número de telefone ou escolher entre uma lista de números pelo preço de R$ 15,00 / mês;
-- Após o cadastro o sistema irá passar por algumas etapas automáticas que podem demorar algumas horas;
-As etapas são:
-  * Implantação o novo número do whatsapp, que não ocorrerá caso ele informe um número. [15 minutos];
-  * Implantação da conta do facebook/whatsapp [2 horas];
-  * Implantação do ambiente do cliente [15 minutos];
-  * Envio de convites para os usuários [Imediato];
+- Vendedor: O usuário deve conseguir, durante uma conversa dentro da Helena, criar uma venda para o contato selecionado, com a lista de itens;
+- Vendedor: É permitido que a venda seja alterada a qualquer momento da conversa, então é importante que ela seja sempre visível em toda conversa;
+- Gestor: É necessário possa visualizar todas as vendas que aconteceram e estão acontecendo em uma tela gerencial;
+- Geral: A venda deve ter os dados do cliente, a lista de itens e informações de entrega;
+- Vendedor: Os dados da venda podem ser informados em momentos diferentes durnate toda a jornada de venda;
+- Geral: A venda tem as seguintes situações RASCUNHO, PENDENTE, CONCLUÍDA;
+- Os tipos de pendências possível são: Pagamento, Preparação, Entrega;
+
 
 # Tempo
 Até 3 horas;
 
 # Entrega
-Envie os materiais produzidos ou um link pra eles para gente@helena.app;
+Envie os materiais produzidos ou um link pra eles para david@helena.app;
+
+# Design system
+Para te guiar, utilize o template Fuse como guia para criação dos componentes visuais. 
+
+Ele pode ser acessado pelo link: https://angular-material.fusetheme.com/
+**Usuário:** hughes.brian@company.com
+**Senha:** admin
+
+
+**Exemplos de interface para base do seu trabalho**
+
+Interface de chat
+![alt text](chat.png)
+
+Interface de lista
+![alt text](lista.png)
+

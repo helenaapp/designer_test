@@ -1,10 +1,11 @@
 # designer_test
 
 # Instruções
-- Você deve criar uma solução para os desafios descritos abaixo;
-- Esperamos que você defina mockups e não interfaces definitivas;
-- Escolha um dos mockups criados e crie a interface definitiva para ela;
-- Você pode utilizar qualquer ferramenta que entender necessário;
+
+Você deve criar uma solução para os desafios descritos abaixo;
+- Esperamos que você defina protótipos e não interfaces definitivas;
+- Escolha um dos protótipos criados e crie a interface definitiva para ela;
+- Sugerimos que você faça no Figma, mas você pode utilizar qualquer ferramenta que entender necessário;
 - É importante que você gaste até *3 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
 
 # Solução "Gestão de vendas"

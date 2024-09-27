@@ -3,7 +3,7 @@
 # Instruções
 
 Você deve criar uma solução para os desafios descritos abaixo;
-- Esperamos que você defina protótipos e não interfaces definitivas;
+- Esperamos que você defina protótipos;
 - Escolha um dos protótipos criados e crie a interface definitiva para ela;
 - Sugerimos que você faça no Figma, mas você pode utilizar qualquer ferramenta que entender necessário;
 - É importante que você gaste até *3 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
@@ -28,10 +28,10 @@ Você deve criar uma solução para os desafios descritos abaixo;
 - Venda: Entidade que tem todos os dados da venda, produtos, itens, situação de pagamento, entrega, preparação, usuário responsável por cada etapa e dados do cliente;
 
 **Requisitos funcionais**
-- Vendedor: O usuário deve conseguir, durante uma conversa dentro da Helena, criar uma venda para o contato selecionado, com a lista de itens;
+- Vendedor: O usuário deve conseguir, durante uma conversa dentro da Helena, criar uma venda para o contato selecionado, com a lista de produtos;
 - Vendedor: É permitido que a venda seja alterada a qualquer momento da conversa, então é importante que ela seja sempre visível em toda conversa;
 - Gestor: É necessário possa visualizar todas as vendas que aconteceram e estão acontecendo em uma tela gerencial;
-- Geral: A venda deve ter os dados do cliente, a lista de itens e informações de entrega;
+- Geral: A venda deve ter os dados do cliente, a lista de produtos e informações de entrega;
 - Vendedor: Os dados da venda podem ser informados em momentos diferentes durnate toda a jornada de venda;
 - Geral: A venda tem as seguintes situações RASCUNHO, PENDENTE, CONCLUÍDA;
 - Os tipos de pendências possível são: Pagamento, Preparação, Entrega;

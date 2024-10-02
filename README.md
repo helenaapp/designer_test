@@ -3,39 +3,30 @@
 # Instruções
 
 Você deve criar uma solução para os desafios descritos abaixo;
-- Esperamos que você defina protótipos;
-- Escolha um dos protótipos criados e crie a interface definitiva para ela;
+- Esperamos que você crie protótipos e escolha um dos protótipos criados e crie uma interface definitiva;
 - Sugerimos que você faça no Figma, mas você pode utilizar qualquer ferramenta que entender necessário;
 - É importante que você gaste até *3 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
 
-# Solução "Gestão de vendas"
+# Solução - Adicionar funcionalidade de gestão de vendas
 
-**Cenário**
-- Uma empresa de CRM baseado em conversas para pequenas empresas;
-- Durante uma conversa pode surgir uma venda;
-- Ao gerar esta venda, ela deve ser visualizada e gerenciada de forma separada da conversa;
-- O cliente é uma doceria e está usando a plataforma via interface WEB;
+## Cenário
 
-**Personas**
-- Cliente
-- Vendedor
-- Gestor
+Uma doceria está utilizando helenaCRM para atender seus clientes e realizar vendas;
 
-**Entidades**
-- Contato: Cliente da doceria;
-- Usuário: Pode ser um Vendedor ou um Gestor acessando a plataforma web;
-- Conversa: Interface de chat onde o vendedor conversa com o contato;
-- Venda: Entidade que tem todos os dados da venda, produtos, itens, situação de pagamento, entrega, preparação, usuário responsável por cada etapa e dados do cliente;
+**Persona: Vendedor**
+- Durante o atendimento de um cliente, a empresa deve conseguir montar um pedido de vendas com os produtos, quantidade e preço.
+- Esta venda deverá estar sempre visíviel, mesmo que parcialmente, durante a conversa;
+- O vendedor poderá alterar o pedido até o momento do envio para o cliente;
+- Após o envio o pedido passará a ficar pendente de pagamento e entrega;
 
-**Requisitos funcionais**
-- Vendedor: O usuário deve conseguir, durante uma conversa dentro da Helena, criar uma venda para o contato selecionado, com a lista de produtos;
-- Vendedor: É permitido que a venda seja alterada a qualquer momento da conversa, então é importante que ela seja sempre visível em toda conversa;
-- Gestor: É necessário possa visualizar todas as vendas que aconteceram e estão acontecendo em uma tela gerencial;
-- Geral: A venda deve ter os dados do cliente, a lista de produtos e informações de entrega;
-- Vendedor: Os dados da venda podem ser informados em momentos diferentes durnate toda a jornada de venda;
-- Geral: A venda tem as seguintes situações RASCUNHO, PENDENTE, CONCLUÍDA;
-- Os tipos de pendências possível são: Pagamento, Preparação, Entrega;
+**Persona: Gestor**
+- O gestor poderá consultar todas as vendas que estão em rascunho, pendentes ou concluídas;
+- Ele deve conseguir ver todos os dados, filtrar por vendedor, por data e por cliente;
 
+**Pesona: Cliente**
+- O cliente vai conversar com o vendedor dizendo o que quer comprar, apenas por mensagem de texto ou audio;
+- Na conclusão da venda, o cliente deve receber um resumo do pedido via WhatsApp;
+- Ele também deve conseguir rastrear a entrega do pedido;
 
 # Tempo
 Até 3 horas;

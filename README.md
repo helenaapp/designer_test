@@ -3,9 +3,9 @@
 # Instruções
 
 Você deve criar uma solução para os desafios descritos abaixo;
-- Esperamos que você crie protótipos e escolha um dos protótipos criados e crie uma interface definitiva;
+- Esperamos que você crie protótipos e escolha um dos protótipos criados e crie interface definitiva; 
 - Sugerimos que você faça no Figma, mas você pode utilizar qualquer ferramenta que entender necessário;
-- É importante que você gaste até *3 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
+- É importante que você gaste até *4 horas* para realizar o teste, quando esse tempo for atingido pare e envie o teste para o e-mail david@helena.app;
 
 # Solução - Adicionar funcionalidade de gestão de vendas
 
@@ -29,7 +29,7 @@ Uma doceria está utilizando helenaCRM para atender seus clientes e realizar ven
 - Ele também deve conseguir rastrear a entrega do pedido;
 
 # Tempo
-Até 3 horas;
+Até 4 horas;
 
 # Entrega
 Envie os materiais produzidos ou um link pra eles para david@helena.app;
